@@ -25,6 +25,9 @@ ul {
   color: #2196f3;
 }
 /*Навігація*/
+.header {
+  background: #ffffff;
+}
 .site-nav .link {
   font-weight: 500;
   font-size: 14px;
@@ -103,4 +106,18 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
+}
+/*Футер*/
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #ffffff;
+}
+.contacts .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
