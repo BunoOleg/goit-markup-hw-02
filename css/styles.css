@@ -1,13 +1,106 @@
 /* основний колір тексту   color: #757575;  */
 /*другорядний колір тексту color: #212121; */
-/*акцент  #2196F3;  */
+/*логотип  #2196F3; #000000;  */
 /*білий колір color: #FFFFFF; */
 
+body {
+  background: #2f303a;
+  color: #757575;
 
-body{
-    background: #2F303A;
-    color: #757575;
+  font-family: Roboto, sans-serif;
 }
-.logo{
-    color:#2196F3 ;
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.logo > span {
+  color: #2196f3;
+}
+/*Навігація*/
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: #2196f3;
+}
+/*Контакти*/
+.contacts-list .link,
+.contacts-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: #2196f3;
+}
+/*Герой*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: #ffffff;
+}
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #ffffff;
+  background: #2196f3;
+}
+.button:hover,
+.button:focus {
+  background: #188ce8;
+}
+/*Переваги*/
+.section {
+  background: #e5e5e5;
+}
+.preference .preference-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.preference .preference-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/*Чем мы занимаемся*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  color: #212121;
+}
+/*Наша команда*/
+.section-team {
+  background: #f5f4fa;
+}
+.section-list .title-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #212121;
+}
+.section-list .title-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
 }
