@@ -89,19 +89,16 @@ ul {
   background: #e5e5e5;
 }
 .preference .preference-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--black-color);
 }
 .preference .preference-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 /*Чем мы занимаемся*/
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
   color: var(--black-color);
@@ -117,7 +114,6 @@ ul {
   color: var(--black-color);
 }
 .section-list .title-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
 }
@@ -131,7 +127,6 @@ ul {
 }
 .contacts .link {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -162,14 +157,12 @@ ul {
 }
 
 .img-list .title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: #212121;
 }
 
 .img-list .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.86;
   color: var(--primery-text-color);
