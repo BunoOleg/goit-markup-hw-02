@@ -2,10 +2,10 @@
   --primery-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
-  --white-color: #ffffff;
   --black-color: #000000;
-  --primery-color-bg: #2f303a;
-  --secondary-color-bg: #e5e5e5;
+  --white-color: #ffffff;
+  --primery-color-bg: #ffffff;
+  --secondary-color-bg: #2f303a;
   --additional-bg-color: #f5f4fa;
   --focus-button-color: #188ce8;
   --address-color: rgba(255, 255, 255, 0.6);
@@ -43,9 +43,7 @@ ul {
   color: var(--accent-color);
 }
 /*Навігація*/
-.header {
-  background: var(--white-color);
-}
+
 .site-nav .link {
   text-decoration: none;
   font-weight: 500;
@@ -74,15 +72,19 @@ ul {
   color: var(--accent-color);
 }
 /*Герой*/
-
+.hero {
+  background: var(--secondary-color-bg);
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
   color: var(--white-color);
 }
 .button {
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -95,12 +97,11 @@ ul {
   background: var(--focus-button-color);
 }
 /*Переваги*/
-.section {
-  background: var(--secondary-color-bg);
-}
+
 .preference .preference-title {
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 .preference .preference-text {
@@ -128,6 +129,21 @@ ul {
   line-height: 1.19px;
 }
 /*Футер*/
+.footer {
+  background: var(--secondary-color-bg);
+}
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.logo-footer > span {
+  color: var(--accent-color);
+}
 .address {
   font-style: normal;
   font-weight: 400;
@@ -143,13 +159,8 @@ ul {
 }
 
 /*portfolio*/
-.portfolio {
-  background: var(--secondary-color-bg);
-}
-.portfolio-bg {
-  background: var(--primery-color-bg);
-}
 .button-list .button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
